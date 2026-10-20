@@ -1,0 +1,8 @@
+step,rows_remaining
+Raw records pulled,51000
+Excluded Trash/Delete status,51000
+ApplicationDate >= 2025-10-01,50997
+Issued in FY26 (IssueDate in window),29180
+New permits only (RenewalDescription == New),12155
+Deduplicated on PermitNumber,2770
+Rows with usable LastApprovalDate-based metric (dropped from averages: 5),2765
